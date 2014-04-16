@@ -1,6 +1,6 @@
 {
   "name": "connect-fineup-s3",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Connect middleware and express routes for saving fineuploader uploads to s3.",
   "main": "index.js",
   "scripts": {
