@@ -1,0 +1,37 @@
+{
+  "name": "connect-fineup-s3",
+  "version": "0.0.0",
+  "description": "Connect middleware and express routes for saving fineuploader uploads to s3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loop-recur/connect-fineup-s3.git"
+  },
+  "keywords": [
+    "connect",
+    "middleware",
+    "express",
+    "upload",
+    "fineuploader",
+    "aws",
+    "s3"
+  ],
+  "author": "Adam C. Baker <adam.durandal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loop-recur/connect-fineup-s3/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "bluebird": "~1.2.2",
+    "lodash": "~2.4.1",
+    "busboy": "~0.2.4",
+    "aws-sdk": "~2.0.0-rc13"
+  }
+}
