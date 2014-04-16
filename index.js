@@ -13,7 +13,7 @@ module.exports = function(config) {
   var s3 = new zon.S3();
   var mod, put = Promise.promisify(s3.putObject.bind(s3));
 
-  mod = {
+  return mod = {
     write: function(opts, stream){
       var bucket = opts.bucket || config.bucket || process.env.s3_bucket 
       var key = opts.dir + '/' + opts.name;
